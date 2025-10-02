@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --accent: #06b6d4; --muted: #94a3b8; }
+html, body, #__next { height: 100%; }
+body { @apply antialiased bg-slate-900 text-slate-100; font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+.btn-primary { @apply inline-flex items-center gap-2 bg-[color:var(--accent)] text-slate-900 px-4 py-2 rounded-md font-medium shadow; }
+.card { @apply p-6 border border-slate-800 rounded-xl bg-slate-900/40; }
+
+/* Hero glow animation */
+.hero-glow { box-shadow: 0 0 30px rgba(6,182,212,0.12); animation: pulse 3s infinite; }
+@keyframes pulse { 0% { box-shadow: 0 0 6px rgba(6,182,212,0.06); } 50% { box-shadow: 0 0 24px rgba(6,182,212,0.12); } 100% { box-shadow: 0 0 6px rgba(6,182,212,0.06); } }
+
+/* Simple particle background */
+.particles { position: absolute; inset: 0; z-index: 0; opacity: 0.12; background-image: radial-gradient(rgba(6,182,212,0.08) 1px, transparent 1px); background-size: 40px 40px; }
