@@ -12,9 +12,9 @@ export const metadata = {
     description: 'ISO 27001 audits, VAPT, and security consultancy.',
   },
   icons: {
-    icon: '/public/IMG_7087.png',       // standard favicon
-    shortcut: '/public/IMG_7087.png',   // browser shortcut
-    apple: '/public/IMG_7087.png',      // Apple touch icon
+    icon: '/public/favicon.ico',       // standard favicon
+    shortcut: '/public/favicon.ico',   // browser shortcut
+    apple: '/public/favicon.ico',      // Apple touch icon
   }
 }
 
